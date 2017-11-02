@@ -1,0 +1,26 @@
+page-chat {
+  .innerMessage{
+    display: inline-block;
+    padding : 5px 10px;
+    background: color($colors , 'primary');
+    border-radius: 6px;
+    color : white;
+  }
+  .username{
+    font-size : 0.75em;
+    font-weight: bold;
+    color : rebeccapurple;
+  }
+  div#footer div.elem:first-child{
+    flex-grow : 1;
+  }
+  div#footer{
+    display: flex;
+    flex-direction: row;
+  }
+  ion-toolbar{
+    margin : 0;
+    padding : 0;
+  }
+
+}
