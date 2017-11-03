@@ -45,6 +45,7 @@ export class ChatPage {
       //message is sent
 
     });
+    this.message='';
   }
 
 
